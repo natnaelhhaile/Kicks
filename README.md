@@ -1,4 +1,4 @@
-# Kicks Shoe Store
+# Kicks
 
 Welcome to Kicks Shoe Store! This repository hosts the source code for a full-stack web application designed to provide users with a seamless shopping experience for shoes online.
 
