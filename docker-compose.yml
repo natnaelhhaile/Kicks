@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    container_name: kicks-app
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      - db
+    environment:
+      MYSQL_HOST: db
+      MYSQL_DATABASE: kicks_db
+      MYSQL_USER: root
+      MYSQL_PASSWORD: N@tn@3lH@1l3
+
+  db:
+    image: mysql:8.0
+    container_name: kicks-db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: N@tn@3lH@1l3
+      MYSQL_DATABASE: kicks_db
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./server/product.sql:/docker-entrypoint-initdb.d/product.sql
+
+volumes:
+  db_data:

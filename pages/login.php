@@ -161,7 +161,7 @@
         </div>
       </div>
     </section>
-    <?php include "footer.html"?>
+    <?php include "footer.php"?>
     <script src="scripts/animations.js"></script>
   </body>
 </html>

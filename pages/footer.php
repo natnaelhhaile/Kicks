@@ -58,10 +58,10 @@
         <h6>Follow Us</h6>
         <p>Let us be social</p>
         <div class="footer-socials">
-          <a href="#"><i class="fa-solid fa-facebook"></i></a>
-          <a href="#"><i class="fa-solid fa-twitter"></i></a>
-          <a href="#"><i class="fa-solid fa-dribbble"></i></a>
-          <a href="#"><i class="fa-solid fa-behance"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-behance"></i></a>
         </div>
       </div>
     </div>

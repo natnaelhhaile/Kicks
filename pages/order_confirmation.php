@@ -107,7 +107,7 @@
         </div>
       </section>
     </main>
-    <?php include "footer.html" ?>
+    <?php include "footer.php" ?>
   </body>
   <script src="../scripts/animations.js"></script>
   <script src="../scripts/app.js?79"></script>

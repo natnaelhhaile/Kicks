@@ -1,39 +1,26 @@
 <?php
     require_once 'login.php';
+
+    // Enable error reporting
+    error_reporting(E_ALL);
+    ini_set('display_errors', 1);
+
+    // Connect to MySQL
     $connection = mysqli_connect($db_hostname, $db_username, $db_password, $db_database);
 
+    // Start session
     session_start();
 
-    if(!$connection)
-        die("Unable to connect to MySQL: " . mysqli_connect_errno());
+    // Check if connection was successful
+    if(!$connection) {
+        die("❌ Unable to connect to MySQL: " . mysqli_connect_error());
+    } else {
+        echo "✅ Database connected successfully!<br>";
+    }
 
+    // Capture request type
     $request_type = isset($_POST["type"]) ? $_POST["type"] : "";
     $final_result = array();
-
-
-    // $_POST["first_name"] = "sjlkf";
-    // $_POST["email"] = "salaman@gmail.com";
-    // $_POST["last_name"] = "jfdsk;";
-    // $_POST["date_of_birth"] = "1995-03-01";
-    // $_POST["gender"] = "M";
-    // $_POST["address"] = "dfjaks;df";
-    // $_POST["password"] = "1234";
-    // //SIMULATION
-    // $_POST["brand"] = "Gucci";
-    // $_POST["quantity"] = 20;
-    // $_POST["price"] = 200;
-    // $_POST["description"] = "women's shoe";
-    // $_POST["img_url"] = "images/product11.png";
-    // // $_POST["gender"]
-    // // $_POST["address"]
-
-    // $request_type = "place_order";
-    // $_POST['brand'] = "Nike";
-    // $_POST['category'] = "Men";
-    // $_POST['price'] = 120;
-    // $_POST['description'] = "fajksl;dfj";
-    // $_POST['img_url'] = "sdjfak;sdjf";
-    // $_POST['quantity'] = 24;
     
     switch($request_type){
         case "get_products":

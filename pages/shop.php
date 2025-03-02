@@ -150,7 +150,7 @@
         </div>
       </section>
     </main>
-    <?php include "footer.html"?>
+    <?php include "footer.php"?>
     <script src="../scripts/animations.js?8"></script>
   </body>
 </html>
