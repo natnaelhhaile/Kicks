@@ -2,8 +2,6 @@
 
 **Kicks** is a stylish and responsive e-commerce platform designed for sneaker enthusiasts. Browse through a curated collection of sneakers, make secure purchases, and enjoy a seamless shopping experience.
 
-Kicks Homepage(![alt text](image.png))  
-
 ---
 
 ## 🚀 Features
@@ -29,15 +27,22 @@ Kicks Homepage(![alt text](image.png))
 ## 📸 Screenshots
 
 ### 🌟 Homepage  
-Homepage(![alt text](image-1.png))  
-Homepage(![alt text](image-2.png))
+Homepage <img width="1469" alt="image" src="https://github.com/user-attachments/assets/07400c0b-d3d7-470f-86c6-926218f077dd" />
+<img width="1470" alt="image" src="https://github.com/user-attachments/assets/578190fd-a1b9-49ef-9a92-95cfd96499ee" />
+<img width="1470" alt="image" src="https://github.com/user-attachments/assets/ca03ae29-3735-49fc-b732-d0d366f67de8" />
+<img width="1470" alt="image" src="https://github.com/user-attachments/assets/77e1b45f-47ac-4bec-a38a-d806cf9f83e7" />
+<img width="1470" alt="image" src="https://github.com/user-attachments/assets/a50b48c0-2b1d-41d5-97bd-5756ee58cd4e" />
+
 
 ### 🔑 Login & Signup  
-Login Page(![alt text](image-4.png))  
-Signup Page(![alt text](image-5.png))  
+<img width="1470" alt="image" src="https://github.com/user-attachments/assets/d11d97f3-7ed9-4bd4-a18e-8be7a0f1790f" />
+<img width="1470" alt="image" src="https://github.com/user-attachments/assets/9f9b5dd7-2ea8-4c16-9017-8dc22ea9d9ba" />
+<img width="1469" alt="image" src="https://github.com/user-attachments/assets/a7240478-8735-4a1e-ba23-d7fe46fba7ca" />
+
 
 ### 📞 Contact Us  
-Contact Page(![alt text](image-3.png))  
+<img width="1470" alt="image" src="https://github.com/user-attachments/assets/cc683e08-ba55-4ff2-bddf-f70ed5ea70c2" />
+
 
 ---
 
