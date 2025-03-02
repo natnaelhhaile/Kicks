@@ -2,7 +2,7 @@
 
 **Kicks** is a stylish and responsive e-commerce platform designed for sneaker enthusiasts. Browse through a curated collection of sneakers, make secure purchases, and enjoy a seamless shopping experience.
 
-![Kicks Homepage](![alt text](image.png))  
+Kicks Homepage(![alt text](image.png))  
 
 ---
 
@@ -29,15 +29,15 @@
 ## 📸 Screenshots
 
 ### 🌟 Homepage  
-![Homepage](![alt text](image-1.png))  
-![Homepage](![alt text](image-2.png))
+Homepage(![alt text](image-1.png))  
+Homepage(![alt text](image-2.png))
 
 ### 🔑 Login & Signup  
-![Login Page](![alt text](image-4.png))  
-![Signup Page](![alt text](image-5.png))  
+Login Page(![alt text](image-4.png))  
+Signup Page(![alt text](image-5.png))  
 
 ### 📞 Contact Us  
-![Contact Page](![alt text](image-3.png))  
+Contact Page(![alt text](image-3.png))  
 
 ---
 
