@@ -1,4 +1,4 @@
-# 🏀 Kicks - Sneaker E-commerce Platform
+# 👟 Kicks - Sneaker E-commerce Platform
 
 **Kicks** is a stylish and responsive e-commerce platform designed for sneaker enthusiasts. This e-commerce web app was developed to show case our groups full-stack web development capabilities using HTML/CSS/JavaScript on the front-end and vanilla PHP on the backend, using AJAX for dynamic updation of the front-end without the need to refresh the page.
 
